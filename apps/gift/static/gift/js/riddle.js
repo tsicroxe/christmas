@@ -11,7 +11,7 @@ $(document).ready(function(){
     count++;
     function reset() {
       document.getElementById('capture').className = 'capture'
-      document.getElementById('title').innerHTML = "Enter THE code:"
+      document.getElementById('title').innerHTML = "Who says 'OH OH OH!'?"
       passcode.innerHTML = ''
       count = 0;
     }
@@ -52,7 +52,6 @@ $(document).ready(function(){
 
       if(passcode.innerHTML === 'ATNAS'){
         console.log("Passcode accepted")
-        document.getElementById('title').innerHTML= ''
         document.getElementById('title').innerHTML= ''
         document.getElementById('capture').className = 'success'
         passcode.innerHTML = 'PASSCODE ACCEPTED'
