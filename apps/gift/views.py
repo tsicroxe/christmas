@@ -1,7 +1,4 @@
-from django.shortcuts import render, HttpResponse, redirect
-# from .models import User
-from django.contrib import messages
-from django.core.urlresolvers import reverse
+from django.shortcuts import render
 
 def index(request):
     return render(request, 'gift/index.html')
